@@ -1,0 +1,14 @@
+name: nerfintro
+channels:
+  - default
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+      - ipykernel
+      - matplotlib
+      - torch
+      - torchvision
+      - torchaudio
+      - tqdm
+      - --extra-index-url https://download.pytorch.org/whl/cu117
